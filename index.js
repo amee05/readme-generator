@@ -1,3 +1,25 @@
+const fs = require('fs');
+const inquirer = require('inquirer');
+const axios = require('axios');
+
+inquirer.prompt([
+  {
+    type: 'input',
+    name: 'title',
+    message: 'What is the title of your project?'
+  }
+
+
+])
+
+
+
+
+
+
+
+
+
 // array of questions for user
 const questions = [
 
