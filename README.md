@@ -1,9 +1,9 @@
 
- **README Generator**
+# **README Generator**
 none
-** Description** 
-This is the readme generator. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-**Table of contents**
+## Description 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Table of contents
 - [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
@@ -12,21 +12,19 @@ This is the readme generator. Lorem ipsum dolor sit amet, consectetur adipiscing
 - [Test](#Test)
 - [Repository Link](#Repository)
 - [GitHub Info](#GitHub) 
-** Installation
+## Installation
         run node index.js
-** Usage
+## Usage
 to generate good readme file
-** Licence
+## Licence
 none
-** Contributors
+## Contributors
 none
-** Test
+## Test
 none
-** Repository
+## Repository
 - [Project Repo](https://github.com/amee05/readme-generator)
-** GitHub
+## GitHub
 - Amee Parmar
 - [GitHub Profile](https://github.com/amee05)
 - <null>
-**Email
-amee05@yahoo.com
