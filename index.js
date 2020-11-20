@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
-const axios = require("axios");
-const generate = require('../utils/generateMarkdown');
+const axios = require('axios');
+const generate = require('./utils/generateMarkdown');
 
 // array of questions for user
 const questions = [
@@ -55,6 +55,11 @@ const questions = [
     name: "repo",
     message: "What is your repo link?"
   },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'Enter your email address.'
+  }
 ];
 
 inquirer
@@ -74,7 +79,7 @@ inquirer
       // function to write README file
       fs.writeFile("README.md", generate(data, githubInfo), function (err) {
         if (err) {
-          throw err;
+          console.log(err)
         };
 
         console.log("New README file created with success!");
